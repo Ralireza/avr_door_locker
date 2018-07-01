@@ -1,0 +1,37 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+input                                                                             0x02C7       4
+pass                                                                              0x02CB       4
+_base_y                                                                           0x02CF       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+index                                                                             R4,R5        2
+c                                                                                 R6,R7        2
+value                                                                             R9           1
+_lcd_x                                                                            R8           1
+_lcd_y                                                                            R11          1
+_lcd_maxx                                                                         R10          1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+main                                                                              0x000CD     64
+check1                                                                            0x0010D     40
+check4                                                                            0x00175     31
+chpass                                                                            0x00194     75
+beepbeep                                                                          0x001DF     18
+notbeep                                                                           0x001F1     18
+_lcd_write_nibble_G100                                                            0x00203     21
+_lcd_write_data                                                                   0x00218     12
+lcd_gotoxy                                                                        0x00224     13
+lcd_clear                                                                         0x00231     10
+lcd_putchar                                                                       0x0023B     20
+lcd_puts                                                                          0x0024F     17
+lcd_init                                                                          0x00260     40
